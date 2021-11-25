@@ -1,0 +1,11 @@
+FROM ubuntu:latest
+
+# Install curl
+RUN apt-get update && apt-get install -y \
+	curl
+
+#CMD ["sleep 1d"]
+
+#docker build -t curl .
+#docker run -d -p 80:80 curl
+#docker run -t -i curl:latest bash
